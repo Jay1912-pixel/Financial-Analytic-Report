@@ -13,6 +13,21 @@ This project was developed to create an automated financial analytics pipeline c
 ✅ Fetching datasets automatically from Google Drive  
 ✅ Performing data cleaning and preprocessing using Python  
 ✅ Storing cleaned data in MySQL  
+✅ Running advanced SQL analysis queries  # 📊 Financial Analytics Automation Pipeline
+
+An end-to-end automated data analytics project built using Python, MySQL, Google Drive API, Power BI, and Power Automate.
+
+This project automates the complete analytics workflow — from data extraction and transformation to dashboard reporting and workflow automation.
+
+---
+
+# 🚀 Project Overview
+
+This project was developed to create an automated financial analytics pipeline capable of:
+
+✅ Fetching datasets automatically from Google Drive  
+✅ Performing data cleaning and preprocessing using Python  
+✅ Storing cleaned data in MySQL  
 ✅ Running advanced SQL analysis queries  
 ✅ Building an interactive Power BI dashboard  
 ✅ Automating reporting workflows using Power Automate  
@@ -40,7 +55,43 @@ MySQL Database
 Power BI Dashboard
         ↓
 Power Automate Workflow
+✅ Building an interactive Power BI dashboard  
+✅ Automating reporting workflows using Power Automate  
+
+The project demonstrates practical skills in:
+- Data Analytics
+- ETL Pipeline Development
+- SQL Analysis
+- Dashboard Development
+- API Integration
+- Workflow Automation
+- Business Intelligence Reporting
+
+---
+
+# 🏗️ Project Architecture
+
+```text
+Google Drive API
+        ↓
+Python ETL & Data Cleaning
+        ↓
+MySQL Database
+        ↓
+Power BI Dashboard
+        ↓
+Power Automate Workflow
 ```
+
+---
+# 📸 Dashboard Screenshots
+
+## Financial Analytics Dashboard
+
+<p align="center">
+  <img src="./screenshots/financial-dashboard-1.png" width="48%">
+  <img src="./screenshots/financial-dashboard-2.png" width="48%">
+</p>
 
 ---
 
