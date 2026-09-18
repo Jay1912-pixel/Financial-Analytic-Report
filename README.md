@@ -58,8 +58,9 @@ Analyzes demographics and loan product popularity, including Life-Time Value (LT
 ---
 
 ## 🧑‍💻 Contact
-**Uttam Kumar Mahato** 📧 [uttammahato379@gmail.com](mailto:uttammahato379@gmail.com)  
-📂 [GitHub Profile](https://github.com/vk18chiku)
+**Jay Kumar Patel** 📧 [jay2005.official@gmail.com]
+  (mailto:jay2005.official@gmail.com)  
+📂 [GitHub Profile](https://github.com/Jay1912-pixel)
 
 ---
 *If you find this project helpful for your automation needs, feel free to ⭐ the repository!*
