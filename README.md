@@ -1,266 +1,68 @@
-# 📊 Financial Analytics Automation Pipeline
+# 📊 Automated Financial ETL & Dashboard Pipeline
 
-An end-to-end automated data analytics project built using Python, MySQL, Google Drive API, Power BI, and Power Automate.
+![Automation](https://img.shields.io/badge/Workflow-Automated-green?style=for-the-badge&logo=microsoftpowerautomate) ![Python](https://img.shields.io/badge/Python-ETL-blue?style=for-the-badge&logo=python) ![Power BI](https://img.shields.io/badge/Power_BI-Analytics-yellow?style=for-the-badge&logo=powerbi)
 
-This project automates the complete analytics workflow — from data extraction and transformation to dashboard reporting and workflow automation.
-
----
-
-# 🚀 Project Overview
-
-This project was developed to create an automated financial analytics pipeline capable of:
-
-✅ Fetching datasets automatically from Google Drive  
-✅ Performing data cleaning and preprocessing using Python  
-✅ Storing cleaned data in MySQL  
-✅ Running advanced SQL analysis queries  # 📊 Financial Analytics Automation Pipeline
-
-An end-to-end automated data analytics project built using Python, MySQL, Google Drive API, Power BI, and Power Automate.
-
-This project automates the complete analytics workflow — from data extraction and transformation to dashboard reporting and workflow automation.
+## 📌 Project Summary
+This project eliminates manual data entry by automating the ingestion, processing, and visualization of daily financial survey data. By integrating **Power Automate, Google Drive, custom APIs, Python, and Power BI**, the solution reduces operational costs and delivers real-time business insights to stakeholders with zero manual intervention.
 
 ---
 
-# 🚀 Project Overview
+## 🔁 Automated Workflow Architecture
 
-This project was developed to create an automated financial analytics pipeline capable of:
-
-✅ Fetching datasets automatically from Google Drive  
-✅ Performing data cleaning and preprocessing using Python  
-✅ Storing cleaned data in MySQL  
-✅ Running advanced SQL analysis queries  
-✅ Building an interactive Power BI dashboard  
-✅ Automating reporting workflows using Power Automate  
-
-The project demonstrates practical skills in:
-- Data Analytics
-- ETL Pipeline Development
-- SQL Analysis
-- Dashboard Development
-- API Integration
-- Workflow Automation
-- Business Intelligence Reporting
+| Step | Tool | Description |
+| :--- | :--- | :--- |
+| **1** | **Outlook + Power Automate** | Automatically extracts email attachments received at 3 PM daily. |
+| **2** | **Google Drive** | Serves as the central cloud repository for incoming raw data. |
+| **3** | **Custom API** | Acts as a bridge to serve files from Google Drive to the processing environment. |
+| **4** | **Python (Pandas)** | Performs ETL: cleans data, calculates financial metrics (LTV), and merges datasets. |
+| **5** | **Power BI** | Visualizes processed data into interactive executive dashboards. |
 
 ---
 
-# 🏗️ Project Architecture
+## 🖼️ Dashboard Walkthrough
 
-```text
-Google Drive API
-        ↓
-Python ETL & Data Cleaning
-        ↓
-MySQL Database
-        ↓
-Power BI Dashboard
-        ↓
-Power Automate Workflow
-✅ Building an interactive Power BI dashboard  
-✅ Automating reporting workflows using Power Automate  
+### 1. Financial Performance & Risk Metrics
+This view tracks income distribution, payment delays, and credit utilization patterns to identify financial risks early.
+![Financial Performance](https://raw.githubusercontent.com/vk18chiku/Automated-Email-to-Dashboard-Financial-Project/main/Screenshot%202025-12-31%20131858.png)
 
-The project demonstrates practical skills in:
-- Data Analytics
-- ETL Pipeline Development
-- SQL Analysis
-- Dashboard Development
-- API Integration
-- Workflow Automation
-- Business Intelligence Reporting
+### 2. Customer Segmentation & Credit Behavior
+Analyzes demographics and loan product popularity, including Life-Time Value (LTV) calculations for promotional eligibility.
+![Customer Analysis](https://raw.githubusercontent.com/vk18chiku/Automated-Email-to-Dashboard-Financial-Project/main/Screenshot%202025-12-31%20131909.png)
 
 ---
 
-# 🏗️ Project Architecture
-
-```text
-Google Drive API
-        ↓
-Python ETL & Data Cleaning
-        ↓
-MySQL Database
-        ↓
-Power BI Dashboard
-        ↓
-Power Automate Workflow
-```
-
----
-# 📸 Dashboard Screenshots
-
-## Financial Analytics Dashboard
-
-<p align="center">
-  <img src="./screenshots/financial-dashboard-1.png" width="48%">
-  <img src="./screenshots/financial-dashboard-2.png" width="48%">
-</p>
+## 📈 Key Insights Delivered
+* **Financial Health:** Real-time tracking of balance vs. credit utilization.
+* **Risk Patterns:** Identified correlations between age demographics and payment delays.
+* **LTV Analysis:** Automated customer segmentation to identify "High Value" individuals for marketing promotions.
+* **Product Popularity:** Trends in loan ownership across different age groups and locations.
 
 ---
 
-# 🛠️ Tech Stack
-
-| Technology | Purpose |
-|---|---|
-| Python | Data extraction, preprocessing & automation |
-| Jupyter Notebook | Exploratory Data Analysis (EDA) |
-| Google Drive API | Automated dataset access |
-| MySQL | SQL querying & database management |
-| Microsoft Power BI | Dashboard creation & visualization |
-| Microsoft Power Automate | Automation & reporting workflow |
-| GitHub | Version control & project hosting |
+## ⏱️ Automation Timeline
+* **3:00 PM:** Raw survey data received via email.
+* **3:01 PM:** Power Automate triggers, uploads files to cloud storage.
+* **3:05 PM:** Python script executes ETL (Cleaning & Transformation).
+* **3:15 PM:** Power BI dashboard refreshes.
+* **By 8:00 PM:** Fully updated insights are ready for stakeholder review.
 
 ---
 
-# 📂 Dataset
-
-The project uses a USA financial/customer transactional dataset containing information related to:
-- Customer behavior
-- Sales transactions
-- Product categories
-- Payment methods
-- Branch performance
-- Financial trends
+## 🛠️ Tech Stack
+* **Automation:** Microsoft Power Automate (Flow)
+* **Processing:** Python (Pandas, NumPy, Requests)
+* **Storage:** Google Drive API
+* **Visualization:** Power BI (DAX & Power Query)
+* **Communication:** Microsoft Outlook
 
 ---
 
-# ⚡ Key Features
-
-## 🔹 Automated Data Pipeline
-- Fetches files dynamically from Google Drive
-- Reads CSV and Excel datasets automatically
-- Combines multiple files into a single dataframe
-
-## 🔹 Data Cleaning & Transformation
-- Missing value handling
-- Duplicate removal
-- Data type corrections
-- Column standardization
-- Feature engineering
-
-## 🔹 SQL Analytics
-Performed advanced SQL analysis using:
-- Window Functions
-- CTEs
-- Aggregations
-- Ranking Functions
-- Subqueries
-- Business KPI analysis
-
-## 🔹 Power BI Dashboard
-Interactive dashboard includes:
-- KPI Cards
-- Revenue Analysis
-- Branch Performance
-- Category Insights
-- Payment Method Analysis
-- Customer Behavior Insights
-
-## 🔹 Workflow Automation
-Implemented automation using Power Automate:
-- Outlook integration
-- Automated report handling
-- Google Drive synchronization
-- Automated workflow execution
+## 🧑‍💻 Contact
+**Uttam Kumar Mahato** 📧 [uttammahato379@gmail.com](mailto:uttammahato379@gmail.com)  
+📂 [GitHub Profile](https://github.com/vk18chiku)
 
 ---
+*If you find this project helpful for your automation needs, feel free to ⭐ the repository!*
 
-# 🔄 Project Workflow
 
-## 📌 Step 1 — Data Extraction
-- Connected Google Drive API using service account credentials
-- Accessed datasets automatically from cloud storage
 
-## 📌 Step 2 — Data Cleaning & EDA
-Performed using Python and Pandas:
-- Data preprocessing
-- Missing value treatment
-- Exploratory Data Analysis (EDA)
-
-## 📌 Step 3 — Database Integration
-- Uploaded cleaned dataset into MySQL
-- Performed SQL-based business analysis
-
-## 📌 Step 4 — Dashboard Development
-- Built an interactive Power BI dashboard
-- Generated business insights and visual reports
-
-## 📌 Step 5 — Workflow Automation
-- Automated reporting workflow using Power Automate
-- Integrated Outlook and Google Drive services
-
----
-
-# 🧠 SQL Concepts Used
-
-```sql
-RANK() OVER()
-CTE
-GROUP BY
-WINDOW FUNCTIONS
-AGGREGATIONS
-SUBQUERIES
-```
-
----
-
-# 📈 Skills Demonstrated
-
-- Data Analytics
-- ETL Pipeline Development
-- SQL Query Optimization
-- API Integration
-- Dashboard Development
-- Business Intelligence
-- Workflow Automation
-- Data Cleaning & Transformation
-
----
-
-# ▶️ How to Run the Project
-
-## 1️⃣ Clone Repository
-
-```bash
-git clone <repository-link>
-```
-
-## 2️⃣ Install Required Libraries
-
-```bash
-pip install pandas sqlalchemy pymysql google-api-python-client google-auth
-```
-
-## 3️⃣ Configure Environment
-- Add Google Drive API credentials
-- Configure MySQL database connection
-- Update dataset file paths
-
-## 4️⃣ Run Python ETL Script
-
-```bash
-python main.py
-```
-
-## 5️⃣ Open Power BI Dashboard
-- Open `.pbix` file in Microsoft Power BI
-- Refresh dataset connection
-
----
-
-# 📌 Future Improvements
-
-- Real-time analytics integration
-- Cloud deployment
-- Scheduled automatic refresh
-- Machine learning integration
-- Predictive analytics
-
----
-
-# 👨‍💻 Author
-
-**Jay Kumar**
-
----
-
-# 📜 License
-
-This project is licensed under the MIT License.
