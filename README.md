@@ -1,4 +1,4 @@
-# 📊 Automated Financial ETL & Dashboard Pipeline
+# 📊 Financial Analytics Automation Pipeline
 
 ![Automation](https://img.shields.io/badge/Workflow-Automated-green?style=for-the-badge&logo=microsoftpowerautomate) ![Python](https://img.shields.io/badge/Python-ETL-blue?style=for-the-badge&logo=python) ![Power BI](https://img.shields.io/badge/Power_BI-Analytics-yellow?style=for-the-badge&logo=powerbi)
 
